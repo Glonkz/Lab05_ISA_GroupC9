@@ -105,7 +105,7 @@ class PatientAppUI {
 }
 
 
-const API_BASE_URL = " ";
+const API_BASE_URL = "https://lab05-isa-groupc9.onrender.com/lab5/api/v1/sql";
 
 const apiClient = new PatientApiClient(API_BASE_URL);
 const appUI = new PatientAppUI(apiClient, USER_MESSAGES);
