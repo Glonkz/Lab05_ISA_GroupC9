@@ -105,7 +105,7 @@ class PatientAppUI {
 }
 
 
-const API_BASE_URL = "https://lab05isagroupc9-production.up.railway.app";
+const API_BASE_URL = "https://lab05isagroupc9-production.up.railway.app/lab5/api/v1/sql";
 
 const apiClient = new PatientApiClient(API_BASE_URL);
 const appUI = new PatientAppUI(apiClient, USER_MESSAGES);
